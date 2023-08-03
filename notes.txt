@@ -1,6 +1,7 @@
 monday league_id = 645fb75941fed69161785bd6
 wednesday league_id = 64775948fc90f4363a1c6ef5
 
+[ ] This should only be called once per season and cached in the sqlite db
 curl "https://www.leaguepals.com/laneSchedule?league_id=645fb75941fed69161785bd6&simple=true"
     - contains a a json with a schedule which is match[]
     - matches look like
@@ -32,9 +33,4 @@ curl "https://www.leaguepals.com/laneSchedule?league_id=645fb75941fed69161785bd6
     - running with simple=false gives the matches[] inside schdule which is
     what I actually care about from a given week
 
-
-    https://www.leaguepals.com/recentScores?leagueId=64775948fc90f4363a1c6ef5&weekIdx=0
-
-Doesn't work
--- https://www.leaguepals.com/recentScores?leagueId=64775948fc90f4363a1c6ef5&maxDate=1690873200000&minDate=1690354800000&weekIdx=0
 https://www.leaguepals.com/loadIndividualTeam?id=64775970bba9d14862bcf9ce&noPre=false

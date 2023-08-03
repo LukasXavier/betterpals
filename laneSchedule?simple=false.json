@@ -1,0 +1,1308 @@
+{
+  "_id": "645fb8cfd759801b5daccfab",
+  "league_id": "645fb75941fed69161785bd6",
+  "schedule": [
+    {
+      "date": "2023-05-15T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb9",
+      "calculatedStartLane": 1,
+      "normalWeek": 0,
+      "matches": [
+        {
+          "_id": "6461c902b08f8e7527b43f0f",
+          "team1_id": "645fb8ced759801b5daccfa2",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5daccfdd",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f0e",
+          "team1_id": "645fb9a4d759801b5daccfe3",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5daccfe9",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f0d",
+          "team1_id": "645fb9a4d759801b5daccfef",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5daccff5",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f0c",
+          "team1_id": "645fb9a4d759801b5daccffb",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5dacd001",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f0b",
+          "team1_id": "645fb9a4d759801b5dacd007",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5dacd00d",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f0a",
+          "team1_id": "645fb9a4d759801b5dacd013",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5dacd019",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f09",
+          "team1_id": "6461c0faf599b7f365b18f5f",
+          "team1_lane": 13,
+          "team2_id": "6461c0faf599b7f365b18f65",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-05-22T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb8",
+      "calculatedStartLane": 1,
+      "normalWeek": 1,
+      "matches": [
+        {
+          "_id": "6461c902b08f8e7527b43f16",
+          "team1_id": "645fb9a4d759801b5dacd001",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5daccfef",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f15",
+          "team1_id": "645fb9a4d759801b5daccffb",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5dacd00d",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f14",
+          "team1_id": "645fb9a4d759801b5daccfdd",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f13",
+          "team1_id": "645fb9a4d759801b5daccfe3",
+          "team1_lane": 7,
+          "team2_id": "645fb8ced759801b5daccfa2",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f12",
+          "team1_id": "6461c0faf599b7f365b18f65",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5daccfe9",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f11",
+          "team1_id": "645fb9a4d759801b5daccff5",
+          "team1_lane": 11,
+          "team2_id": "6461c0faf599b7f365b18f5f",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "6461c902b08f8e7527b43f10",
+          "team1_id": "645fb9a4d759801b5dacd007",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5dacd019",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-05-29T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb7",
+      "calculatedStartLane": 1,
+      "normalWeek": null,
+      "startLane": null,
+      "matches": [],
+      "splitMatches": [],
+      "isSkipped": true,
+      "isUSBC": false,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-06-05T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb6",
+      "calculatedStartLane": 1,
+      "normalWeek": 2,
+      "matches": [
+        {
+          "_id": "647e6dcb158a73987487120e",
+          "team1_id": "645fb9a4d759801b5daccffb",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5daccff5",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487120d",
+          "team1_id": "645fb9a4d759801b5dacd001",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5dacd007",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487120c",
+          "team1_id": "645fb8ced759801b5daccfa2",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5dacd019",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487120b",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5daccfdd",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487120a",
+          "team1_id": "6461c0faf599b7f365b18f5f",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5daccfe3",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871209",
+          "team1_id": "645fb9a4d759801b5daccfef",
+          "team1_lane": 11,
+          "team2_id": "6461c0faf599b7f365b18f65",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871208",
+          "team1_id": "645fb9a4d759801b5dacd013",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5dacd00d",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-06-12T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb5",
+      "calculatedStartLane": 1,
+      "normalWeek": 3,
+      "matches": [
+        {
+          "_id": "647e6dcb158a739874871215",
+          "team1_id": "645fb9a4d759801b5dacd019",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5daccfe9",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871214",
+          "team1_id": "6461c0faf599b7f365b18f5f",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5daccfdd",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871213",
+          "team1_id": "6461c0faf599b7f365b18f65",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5daccffb",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871212",
+          "team1_id": "645fb9a4d759801b5dacd007",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5daccff5",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871211",
+          "team1_id": "645fb9a4d759801b5dacd001",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871210",
+          "team1_id": "645fb9a4d759801b5dacd00d",
+          "team1_lane": 11,
+          "team2_id": "645fb8ced759801b5daccfa2",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487120f",
+          "team1_id": "645fb9a4d759801b5daccfe3",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5daccfef",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-06-19T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb4",
+      "calculatedStartLane": 1,
+      "normalWeek": 4,
+      "matches": [
+        {
+          "_id": "647e6dcb158a73987487121c",
+          "team1_id": "645fb9a4d759801b5daccfdd",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5dacd007",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487121b",
+          "team1_id": "645fb8ced759801b5daccfa2",
+          "team1_lane": 3,
+          "team2_id": "6461c0faf599b7f365b18f65",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487121a",
+          "team1_id": "645fb9a4d759801b5dacd001",
+          "team1_lane": 5,
+          "team2_id": "6461c0faf599b7f365b18f5f",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871219",
+          "team1_id": "645fb9a4d759801b5dacd00d",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5daccfef",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871218",
+          "team1_id": "645fb9a4d759801b5dacd019",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5daccffb",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871217",
+          "team1_id": "645fb9a4d759801b5daccfe3",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871216",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5daccff5",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-06-26T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb3",
+      "calculatedStartLane": 1,
+      "normalWeek": 5,
+      "matches": [
+        {
+          "_id": "647e6dcb158a739874871223",
+          "team1_id": "6461c0faf599b7f365b18f5f",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5dacd00d",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871222",
+          "team1_id": "645fb9a4d759801b5daccfef",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5dacd019",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871221",
+          "team1_id": "645fb9a4d759801b5dacd007",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5daccfe3",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871220",
+          "team1_id": "645fb9a4d759801b5daccfdd",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5daccffb",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487121f",
+          "team1_id": "645fb8ced759801b5daccfa2",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5daccff5",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487121e",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5dacd001",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a73987487121d",
+          "team1_id": "6461c0faf599b7f365b18f65",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-07-03T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb2",
+      "calculatedStartLane": 1,
+      "normalWeek": 6,
+      "matches": [
+        {
+          "_id": "647e6dcb158a73987487122a",
+          "team1_id": "645fb9a4d759801b5daccff5",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5dacd001",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871229",
+          "team1_id": "645fb9a4d759801b5dacd007",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5daccffb",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871228",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5dacd00d",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871227",
+          "team1_id": "645fb8ced759801b5daccfa2",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871226",
+          "team1_id": "645fb9a4d759801b5daccfe3",
+          "team1_lane": 9,
+          "team2_id": "6461c0faf599b7f365b18f65",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871225",
+          "team1_id": "6461c0faf599b7f365b18f5f",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5daccfef",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "647e6dcb158a739874871224",
+          "team1_id": "645fb9a4d759801b5dacd019",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5daccfdd",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-07-10T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb1",
+      "calculatedStartLane": 1,
+      "normalWeek": 7,
+      "startLane": null,
+      "matches": [
+        {
+          "_id": "64ac6e98a04c261a2bc97036",
+          "team1_id": "645fb9a4d759801b5daccfef",
+          "team1_lane": 1,
+          "team2_id": "645fb8ced759801b5daccfa2",
+          "team2_lane": 2,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "64ac6e98a04c261a2bc97035",
+          "team1_id": "645fb9a4d759801b5dacd00d",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5daccff5",
+          "team2_lane": 4,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "64ac6e98a04c261a2bc97034",
+          "team1_id": "645fb9a4d759801b5daccfe3",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5dacd001",
+          "team2_lane": 6,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "64ac6e98a04c261a2bc97033",
+          "team1_id": "645fb9a4d759801b5dacd019",
+          "team1_lane": 7,
+          "team2_id": "6461c0faf599b7f365b18f5f",
+          "team2_lane": 8,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "64ac6e98a04c261a2bc97032",
+          "team1_id": "645fb9a4d759801b5dacd013",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5dacd007",
+          "team2_lane": 10,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "64ac6e98a04c261a2bc97031",
+          "team1_id": "6461c0faf599b7f365b18f65",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5daccfdd",
+          "team2_lane": 12,
+          "game": 0,
+          "shift": 0
+        },
+        {
+          "_id": "64ac6e98a04c261a2bc97030",
+          "team1_id": "645fb9a4d759801b5daccffb",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5daccfe9",
+          "team2_lane": 14,
+          "game": 0,
+          "shift": 0
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": true,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-07-17T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfb0",
+      "calculatedStartLane": 1,
+      "normalWeek": null,
+      "startLane": null,
+      "matches": [],
+      "splitMatches": [],
+      "isSkipped": true,
+      "isUSBC": false,
+      "isLocked": false,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-07-24T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfaf",
+      "calculatedStartLane": 1,
+      "normalWeek": 8,
+      "matches": [
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf4",
+          "team1_id": "645fb9a4d759801b5daccfe3",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5dacd019",
+          "team2_lane": 2
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf3",
+          "team1_id": "645fb9a4d759801b5dacd013",
+          "team1_lane": 3,
+          "team2_id": "6461c0faf599b7f365b18f5f",
+          "team2_lane": 4
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf2",
+          "team1_id": "645fb9a4d759801b5daccffb",
+          "team1_lane": 5,
+          "team2_id": "645fb8ced759801b5daccfa2",
+          "team2_lane": 6
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf1",
+          "team1_id": "645fb9a4d759801b5daccff5",
+          "team1_lane": 7,
+          "team2_id": "6461c0faf599b7f365b18f65",
+          "team2_lane": 8
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf0",
+          "team1_id": "645fb9a4d759801b5daccfef",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5daccfdd",
+          "team2_lane": 10
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cef",
+          "team1_id": "645fb9a4d759801b5dacd007",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5daccfe9",
+          "team2_lane": 12
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cee",
+          "team1_id": "645fb9a4d759801b5dacd00d",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5dacd001",
+          "team2_lane": 14
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": false,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-07-31T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfae",
+      "calculatedStartLane": 1,
+      "normalWeek": 9,
+      "matches": [
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cfb",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 2
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cfa",
+          "team1_id": "6461c0faf599b7f365b18f65",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5dacd001",
+          "team2_lane": 4
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf9",
+          "team1_id": "645fb9a4d759801b5daccff5",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5daccfdd",
+          "team2_lane": 6
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf8",
+          "team1_id": "645fb9a4d759801b5daccfef",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5dacd007",
+          "team2_lane": 8
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf7",
+          "team1_id": "645fb9a4d759801b5dacd00d",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5dacd019",
+          "team2_lane": 10
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf6",
+          "team1_id": "645fb9a4d759801b5daccffb",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5daccfe3",
+          "team2_lane": 12
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cf5",
+          "team1_id": "645fb8ced759801b5daccfa2",
+          "team1_lane": 13,
+          "team2_id": "6461c0faf599b7f365b18f5f",
+          "team2_lane": 14
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": false,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-08-07T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfad",
+      "calculatedStartLane": 1,
+      "normalWeek": 10,
+      "matches": [
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d02",
+          "team1_id": "645fb9a4d759801b5dacd007",
+          "team1_lane": 1,
+          "team2_id": "6461c0faf599b7f365b18f65",
+          "team2_lane": 2
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d01",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 3,
+          "team2_id": "645fb8ced759801b5daccfa2",
+          "team2_lane": 4
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d00",
+          "team1_id": "645fb9a4d759801b5dacd013",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5daccfef",
+          "team2_lane": 6
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cff",
+          "team1_id": "645fb9a4d759801b5dacd001",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5dacd019",
+          "team2_lane": 8
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cfe",
+          "team1_id": "645fb9a4d759801b5daccffb",
+          "team1_lane": 9,
+          "team2_id": "6461c0faf599b7f365b18f5f",
+          "team2_lane": 10
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cfd",
+          "team1_id": "645fb9a4d759801b5daccfdd",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5dacd00d",
+          "team2_lane": 12
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846cfc",
+          "team1_id": "645fb9a4d759801b5daccff5",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5daccfe3",
+          "team2_lane": 14
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": false,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-08-14T00:00:00.000Z",
+      "_id": "645fb8cfd759801b5daccfac",
+      "calculatedStartLane": 1,
+      "normalWeek": 11,
+      "matches": [
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d09",
+          "team1_id": "645fb9a4d759801b5dacd00d",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5daccfe3",
+          "team2_lane": 2
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d08",
+          "team1_id": "645fb9a4d759801b5daccff5",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 4
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d07",
+          "team1_id": "645fb9a4d759801b5dacd019",
+          "team1_lane": 5,
+          "team2_id": "6461c0faf599b7f365b18f65",
+          "team2_lane": 6
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d06",
+          "team1_id": "6461c0faf599b7f365b18f5f",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5daccfe9",
+          "team2_lane": 8
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d05",
+          "team1_id": "645fb9a4d759801b5daccfdd",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5dacd001",
+          "team2_lane": 10
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d04",
+          "team1_id": "645fb8ced759801b5daccfa2",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5dacd007",
+          "team2_lane": 12
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d03",
+          "team1_id": "645fb9a4d759801b5daccfef",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5daccffb",
+          "team2_lane": 14
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": false,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-08-21T00:00:00.000Z",
+      "_id": "647e6dc83f3c030b73a9f10e",
+      "calculatedStartLane": 1,
+      "normalWeek": 12,
+      "matches": [
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d10",
+          "team1_id": "645fb9a4d759801b5dacd013",
+          "team1_lane": 1,
+          "team2_id": "645fb9a4d759801b5daccffb",
+          "team2_lane": 2
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d0f",
+          "team1_id": "645fb9a4d759801b5daccfdd",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5daccfe3",
+          "team2_lane": 4
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d0e",
+          "team1_id": "6461c0faf599b7f365b18f5f",
+          "team1_lane": 5,
+          "team2_id": "645fb9a4d759801b5dacd007",
+          "team2_lane": 6
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d0d",
+          "team1_id": "6461c0faf599b7f365b18f65",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5dacd00d",
+          "team2_lane": 8
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d0c",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5daccfef",
+          "team2_lane": 10
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d0b",
+          "team1_id": "645fb9a4d759801b5dacd019",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5daccff5",
+          "team2_lane": 12
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d0a",
+          "team1_id": "645fb9a4d759801b5dacd001",
+          "team1_lane": 13,
+          "team2_id": "645fb8ced759801b5daccfa2",
+          "team2_lane": 14
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": false,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": []
+    },
+    {
+      "date": "2023-08-28T00:00:00.000Z",
+      "_id": "64b9d30455fc86314fd7b4f6",
+      "matches": [
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d1e",
+          "team1_id": "6461c0faf599b7f365b18f65",
+          "team1_lane": 1,
+          "team2_id": "6461c0faf599b7f365b18f5f",
+          "team2_lane": 2
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d1d",
+          "team1_id": "645fb9a4d759801b5dacd00d",
+          "team1_lane": 3,
+          "team2_id": "645fb9a4d759801b5dacd007",
+          "team2_lane": 4
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d1c",
+          "team1_id": "645fb9a4d759801b5daccfdd",
+          "team1_lane": 5,
+          "team2_id": "645fb8ced759801b5daccfa2",
+          "team2_lane": 6
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d1b",
+          "team1_id": "645fb9a4d759801b5daccff5",
+          "team1_lane": 7,
+          "team2_id": "645fb9a4d759801b5daccfef",
+          "team2_lane": 8
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d1a",
+          "team1_id": "645fb9a4d759801b5dacd001",
+          "team1_lane": 9,
+          "team2_id": "645fb9a4d759801b5daccffb",
+          "team2_lane": 10
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d19",
+          "team1_id": "645fb9a4d759801b5daccfe9",
+          "team1_lane": 11,
+          "team2_id": "645fb9a4d759801b5daccfe3",
+          "team2_lane": 12
+        },
+        {
+          "shift": 0,
+          "game": 0,
+          "_id": "64b9d30634020c8def846d18",
+          "team1_id": "645fb9a4d759801b5dacd019",
+          "team1_lane": 13,
+          "team2_id": "645fb9a4d759801b5dacd013",
+          "team2_lane": 14
+        }
+      ],
+      "splitMatches": [],
+      "isSkipped": false,
+      "isUSBC": true,
+      "isLocked": false,
+      "isDiffMultiShift": false,
+      "isSwitchPairLane": false,
+      "isOneTeamPairLane": false,
+      "isLockPositionRound": false,
+      "isDivPositionRound": false,
+      "isPositionRound": false,
+      "noPoints": false,
+      "customName": "",
+      "isCustom": false,
+      "movement": {
+        "moves": []
+      },
+      "lockedShiftRefresh": [],
+      "lockedShift": [],
+      "calculatedStartLane": 1,
+      "normalWeek": 13
+    }
+  ],
+  "disabledLanes": [],
+  "shifts": [],
+  "__v": 21
+}
