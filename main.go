@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"io"
 	"log"
 	"net/http"
@@ -30,7 +31,12 @@ func OpenBrowser(url string) {
 }
 
 func getClicked(w http.ResponseWriter, r *http.Request) {
-    if _, err := io.WriteString(w, runtime.GOOS); err != nil {
+    res, err := getIndividualTeam("64775970bba9d14862bcf9ce");
+    if err != nil {
+        log.Fatal(err)
+    }
+    t, _ := json.Marshal(res)
+    if _, err := io.WriteString(w, string(t)); err != nil {
         log.Print(err)
     }
 }
