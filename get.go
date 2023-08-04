@@ -77,9 +77,8 @@ func getIndividualTeam(id string) (t *Team, e error) {
     if e != nil {
         return nil, e
     }
-    // I need to flatten ingest and only keep the stuff I care about
     if len(ingest.Data) > 0 {
-        var members []TeamMember
+        members := make([]TeamMember, 0, 4)
         for _, data := range ingest.Data {
             members = append(members, TeamMember{
                 Id: data.Id,
