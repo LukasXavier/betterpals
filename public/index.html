@@ -3,12 +3,19 @@
     <head>
         <title>Title of the document</title>
         <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="index.css">
     </head>
-    <link rel="stylesheet" href="index.css">
     <body>
-        <button hx-post="/clicked" hx-swap="outerHTML">
-            Click Me
-        </button>
+        <div>
+            <button class="mdc-button mdc-button--raised btn-color"
+                style="background-color: #50aa88; color: #eeeeee"
+                hx-get="/clicked"
+                hx-swap="afterend">
+                Get Team Stats
+            </button>
+        </div>
     </body>
-
 </html>

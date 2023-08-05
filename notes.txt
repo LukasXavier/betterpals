@@ -34,3 +34,11 @@ curl "https://www.leaguepals.com/laneSchedule?league_id=645fb75941fed69161785bd6
     what I actually care about from a given week
 
 https://www.leaguepals.com/loadIndividualTeam?id=64775970bba9d14862bcf9ce&noPre=false
+
+
+S(qlite)
+H(tmx)
+A(lpine)
+M(aterial components web) [https://github.com/material-components/material-components-web]
+G(o)
+
