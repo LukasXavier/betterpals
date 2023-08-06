@@ -1,0 +1,15 @@
+body {
+    background-color: #252525;
+    color: #eeeeee;
+}
+
+.mdc-button--primary {
+    background-color: #50aa88;
+    color: #eeeeee;
+}
+
+.mdc-button--accent {
+    background-color: #f03060;
+    color: #eeeeee;
+}
+
