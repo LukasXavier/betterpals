@@ -2,12 +2,13 @@ package main
 
 import (
 	"html/template"
-	"io"
 	"log"
 	"net/http"
 	"os"
 	"os/exec"
 	"runtime"
+
+    "github.com/LukasXavier/betterpals/api/team"
 )
 
 func OpenBrowser(url string) {
@@ -31,19 +32,15 @@ func OpenBrowser(url string) {
 }
 
 func getClicked(w http.ResponseWriter, r *http.Request) {
-    res, err := getIndividualTeam("64775970bba9d14862bcf9ce");
+    res, err := team.New("64775970bba9d14862bcf9ce");
     if err != nil {
         log.Print(err)
     }
-    tmpl, _ := template.New("mcd-button").Parse(`<div class="stats">{{.}}</div>`)
-    if err := tmpl.Execute(w, res); err != nil {
+    tmpl, err := template.ParseFiles("./templates/team.html")
+    if err != nil {
         log.Print(err)
     }
-}
-
-func changeColor(w http.ResponseWriter, r *http.Request) {
-    log.Print("clicked")
-    if _, err := io.WriteString(w, "mcd-button--raised mcd-button-primary"); err != nil {
+    if err := tmpl.Execute(w, res); err != nil {
         log.Print(err)
     }
 }
@@ -52,7 +49,6 @@ func main() {
     fs := http.FileServer(http.Dir("./public"))
     http.Handle("/", fs)
     http.HandleFunc("/clicked", getClicked)
-    http.HandleFunc("/change-color", changeColor)
 
     // OpenBrowser("http://localhost:8080")
     if err := http.ListenAndServe(":8080", nil); err != nil {

@@ -1,4 +1,4 @@
-package main
+package team
 
 import (
 	"encoding/json"
@@ -19,8 +19,17 @@ type Team struct {
     Name string;
 }
 
+var self = make(map[string]*Team)
+func New(id string) (*Team, error) {
+    if self[id] == nil {
+        team, err := getIndividualTeam(id)
+        self[id] = team
+        return team, err
+    }
+    return self[id], nil
+}
+
 func getIndividualTeam(id string) (t *Team, e error) {
-    // https://www.leaguepals.com/loadIndividualTeam?id=64775970bba9d14862bcf9ce&noPre=false
     url := "https://www.leaguepals.com/loadIndividualTeam?noPre=false&id=" + id
     resp, e := http.Get(url)
     if e != nil {

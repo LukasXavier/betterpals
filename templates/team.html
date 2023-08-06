@@ -1,0 +1,7 @@
+<div>
+    <li>{{ .Name }}</li>
+    {{range .Members }}
+    <li>Name: {{ .Name }}</li>
+    <li>Average: {{ .Average }}</li>
+    {{end}}
+</div>
