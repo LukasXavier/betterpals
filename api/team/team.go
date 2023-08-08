@@ -23,6 +23,9 @@ var self = make(map[string]*Team)
 func New(id string) (*Team, error) {
     if self[id] == nil {
         team, err := getIndividualTeam(id)
+        if err != nil {
+            return nil, err
+        }
         self[id] = team
         return team, err
     }

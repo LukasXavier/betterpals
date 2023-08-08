@@ -1,9 +1,10 @@
+
 body {
     background-color: #252525;
     color: #eeeeee;
 }
 
-.mdc-button--primary {
+#btn-cyan {
     background-color: #50aa88;
     color: #eeeeee;
 }
@@ -11,5 +12,16 @@ body {
 .mdc-button--accent {
     background-color: #f03060;
     color: #eeeeee;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-row {
+    align-self: flex-end;
 }
 

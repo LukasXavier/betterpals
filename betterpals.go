@@ -32,7 +32,9 @@ func OpenBrowser(url string) {
 }
 
 func getClicked(w http.ResponseWriter, r *http.Request) {
-    res, err := team.New("64775970bba9d14862bcf9ce");
+    query := r.URL.Query()
+    log.Print(query.Get("id"))
+    res, err := team.New(query.Get("id"))
     if err != nil {
         log.Print(err)
     }

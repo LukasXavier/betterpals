@@ -9,12 +9,21 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <button class="mdc-button mdc-button--raised"
-                style="background-color: #50aa88; color: #eeeeee"
-                hx-get="/clicked" hx-swap="afterend">
-                Get Team Stats
-            </button>
+        <div class="header">
+            <div class="header__row">
+                <button class="mdc-button mdc-button--raised"
+                    id="btn-cyan"
+                    hx-get="/clicked?id=64775948fc90f4363a1c6ef5" hx-swap="afterend">
+                    Get Team Stats
+                </button>
+            </div>
+            <div class="header__row">
+                <button class="mdc-button mdc-button--raised"
+                    id="btn-cyan"
+                    hx-get="/clicked?id=645fb75941fed69161785bd6" hx-swap="afterend">
+                    Get Team Stats
+                </button>
+            </div>
         </div>
     </body>
 </html>
