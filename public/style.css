@@ -30,27 +30,3 @@ body {
     padding: 10px;
 }
 
-
-.mdc-card {
-    &.swatch-tile {
-        height: 120px;
-        width: 300px;
-        background-color: hsl(0, 0%, 20%);
-        display: flex;
-        flex-direction: row;
-        >.swatch-color {
-            margin: 10px;
-            display: flex;
-            padding: 50px;
-            background-color: var(--cyan);
-            border-radius: 15%;
-        }
-        >.swatch-content {
-            display: flex; 
-            flex-direction: column;
-            justify-content: center;
-            >li { list-style-type: none; }
-        }
-    }
-}
-
