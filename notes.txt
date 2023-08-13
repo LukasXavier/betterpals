@@ -1,5 +1,8 @@
-monday league_id = 645fb75941fed69161785bd6
+monday league_id    = 645fb75941fed69161785bd6
 wednesday league_id = 64775948fc90f4363a1c6ef5
+
+monday team_id      = 
+wednesday team_id   = 64775970bba9d14862bcf9ce  
 
 [ ] This should only be called once per season and cached in the sqlite db
 curl "https://www.leaguepals.com/laneSchedule?league_id=645fb75941fed69161785bd6&simple=true"
@@ -38,7 +41,7 @@ https://www.leaguepals.com/loadIndividualTeam?id=64775970bba9d14862bcf9ce&noPre=
 
 S(qlite)
 H(tmx)
-A(lpine)
-M(aterial components web) [https://github.com/material-components/material-components-web]
+-- A(lpine)
+M(aterial components web) [github.com/material-components/material-components-web]
 G(o)
 

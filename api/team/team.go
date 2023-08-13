@@ -3,6 +3,7 @@ package team
 import (
 	"encoding/json"
 	"errors"
+	"log"
 	"net/http"
 )
 
@@ -27,64 +28,19 @@ func New(id string) (*Team, error) {
             return nil, err
         }
         self[id] = team
-        return team, err
     }
     return self[id], nil
 }
 
 func getIndividualTeam(id string) (t *Team, e error) {
     url := "https://www.leaguepals.com/loadIndividualTeam?noPre=false&id=" + id
+    log.Print(url)
     resp, e := http.Get(url)
     if e != nil {
         return nil, e
     }
     defer resp.Body.Close()
-    var ingest struct {
-        Data []struct {
-            Id string `json:"_id"`;
-            Name string `json:"name"`;
-            // Email string `json:"email"`;
-            // FirstName string `json:"firstName"`;
-            // LastName string `json:"lastName"`;
-            // Dexterity int `json:"dexterity"`;
-            Average int `json:"average"`;
-            // Averages []struct {
-                // League string `json:"league"`;
-                // Team string `json:"team"`;
-                // Id string `json:"_id"`;
-                // IndividualPoints int `json:"individualPoints"`;
-                // TotalPointsCarryOn int `json:"totalPointsCarryOn"`;
-                // GamesCarryOn int `json:"gamesCarryOn"`;
-                // HighSeriesHdcp int `json:"highSeriesHdcp"`;
-                // HighGameHdcp int `json:"highGameHdcp"`;
-                // HighSeries int `json:"highSeries"`;
-                // HighGame int `json:"highGame"`;
-                // FixedAvg *sturct {} `json:"fixedAvg"`;
-                // Average int `json:"average"`;
-            // } `json:"averages"`;
-            // Subs []struct {} `json:"subs"`;
-            // NickNames []string `json:"nickNames"`;
-            // IsJunior bool `json:"isJunior"`;
-            // IsFemale bool `json:"isFemale"`;
-            // Avatar string `json:"avatar"`;
-            Games []int `json:"games"`;
-            // IndPointsWon int `json:"indPointsWon"`;
-            HighGame int `json:"highGame"`;
-            HighGameHdcp int `json:"highGameHdcp"`;
-            HighSeries int `json:"highSeries"`;
-            HighSeriesHdcp int `json:"highSeriesHdcp"`;
-            RealAvg int `json:"realAvg"`;
-            EnteringAvg int `json:"enteringAvg"`;
-            // GamesPlayed int `json:"gamesPlayed"`;
-            TeamName string `json:"teamName"`;
-            Team string `json:"team"`;
-            League string `json:"league"`;
-            LeagueName string `json:"leagueName"`;
-            Center string `json:"center"`;
-            CenterName string `json:"centerName"`;
-            // TotalPointsScored int `json:"totalPointsScored"`;
-        } `json:"data"`;
-    }
+    var ingest response
     e = json.NewDecoder(resp.Body).Decode(&ingest)
     if e != nil {
         return nil, e

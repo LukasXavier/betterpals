@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Title of the document</title>
+        <title>Betterpals - A leaguepals lightweight version</title>
         <script src="https://unpkg.com/htmx.org@1.9.2"></script>
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
@@ -10,19 +10,25 @@
     </head>
     <body>
         <div class="header">
-            <div class="header__row">
+            <div class="header-row">
                 <button class="mdc-button mdc-button--raised"
-                    id="btn-cyan"
-                    hx-get="/clicked?id=64775948fc90f4363a1c6ef5" hx-swap="afterend">
+                    hx-get="/clicked?id=64775970bba9d14862bcf9ce" hx-swap="afterend">
                     Get Team Stats
                 </button>
             </div>
-            <div class="header__row">
+            <div class="header-row">
                 <button class="mdc-button mdc-button--raised"
-                    id="btn-cyan"
                     hx-get="/clicked?id=645fb75941fed69161785bd6" hx-swap="afterend">
                     Get Team Stats
                 </button>
+            </div>
+        </div>
+        <div class="mdc-card swatch-tile">
+            <div class="swatch-color"></div>
+            <div class="swatch-content">
+                <li>rgb: rgb(123, 123, 123)</li>
+                <li>hex: #999999</li>
+                <li>hsl: hsl(123, 090%, 100%)</li>
             </div>
         </div>
     </body>
