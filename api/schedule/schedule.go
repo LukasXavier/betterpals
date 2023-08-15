@@ -10,8 +10,8 @@ type Schedule struct {
 
 }
 
-var self = make(map[string]*Schedule)
-func New(id string) (*Schedule, error) {
+var self = make(map[string]*response)
+func New(id string) (*response, error) {
     if self[id] == nil {
         schedule, err := getSchedule(id)
         if err != nil {
@@ -22,8 +22,8 @@ func New(id string) (*Schedule, error) {
     return self[id], nil
 }
 
-func getSchedule(id string) (*Schedule, error) {
-    url := "https://www.leaguepals.com/laneSchedule?simple=true&league_id=" + id
+func getSchedule(id string) (*response, error) {
+    url := "https://www.leaguepals.com/laneSchedule?simple=false&league_id=" + id
     resp, err := http.Get(url)
     if err != nil {
         log.Print(err)
@@ -36,5 +36,5 @@ func getSchedule(id string) (*Schedule, error) {
         log.Print(err)
         return nil, err
     }
-    return nil, nil
+    return &ingest, nil
 }

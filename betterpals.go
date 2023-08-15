@@ -8,7 +8,8 @@ import (
 	"os/exec"
 	"runtime"
 
-    "github.com/LukasXavier/betterpals/api/team"
+	"github.com/LukasXavier/betterpals/api/schedule"
+	"github.com/LukasXavier/betterpals/api/team"
 )
 
 func OpenBrowser(url string) {
@@ -47,10 +48,27 @@ func getClicked(w http.ResponseWriter, r *http.Request) {
     }
 }
 
+func getSchedule(w http.ResponseWriter, r *http.Request) {
+    query := r.URL.Query()
+    log.Print(query.Get("id"))
+    res, err := schedule.New(query.Get("id"))
+    if err != nil {
+        log.Print(err)
+    }
+    tmpl, err := template.ParseFiles("./templates/schedule.html")
+    if err != nil {
+        log.Print(err)
+    }
+    if err := tmpl.Execute(w, res); err != nil {
+        log.Print(err)
+    }
+}
+
 func main() {
     fs := http.FileServer(http.Dir("./public"))
     http.Handle("/", fs)
     http.HandleFunc("/clicked", getClicked)
+    http.HandleFunc("/schedule", getSchedule)
 
     // OpenBrowser("http://localhost:8080")
     if err := http.ListenAndServe(":8080", nil); err != nil {
