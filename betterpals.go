@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/LukasXavier/betterpals/api/schedule"
+	"github.com/LukasXavier/betterpals/api/store"
 	"github.com/LukasXavier/betterpals/api/team"
 )
 
@@ -51,10 +51,12 @@ func getClicked(w http.ResponseWriter, r *http.Request) {
 func getSchedule(w http.ResponseWriter, r *http.Request) {
     query := r.URL.Query()
     log.Print(query.Get("id"))
-    res, err := schedule.New(query.Get("id"))
+    STORE.Sync(query.Get("id"))
+    res := STORE.Teams
+    /* res, err := schedule.New(query.Get("id"))
     if err != nil {
         log.Print(err)
-    }
+    } */
     tmpl, err := template.ParseFiles("./templates/schedule.html")
     if err != nil {
         log.Print(err)
@@ -64,6 +66,7 @@ func getSchedule(w http.ResponseWriter, r *http.Request) {
     }
 }
 
+var STORE = store.New()
 func main() {
     fs := http.FileServer(http.Dir("./public"))
     http.Handle("/", fs)

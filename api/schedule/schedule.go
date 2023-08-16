@@ -7,11 +7,23 @@ import (
 )
 
 type Schedule struct {
-
+    LeagueId string
+    Weeks []Week
 }
 
-var self = make(map[string]*response)
-func New(id string) (*response, error) {
+type Week struct {
+    Date string
+    Matches []Match
+}
+
+type Match struct {
+    Team1Id string
+    Team2Id string
+    LaneNum int
+}
+
+var self = make(map[string]*Schedule)
+func New(id string) (*Schedule, error) {
     if self[id] == nil {
         schedule, err := getSchedule(id)
         if err != nil {
@@ -22,7 +34,7 @@ func New(id string) (*response, error) {
     return self[id], nil
 }
 
-func getSchedule(id string) (*response, error) {
+func getSchedule(id string) (*Schedule, error) {
     url := "https://www.leaguepals.com/laneSchedule?simple=false&league_id=" + id
     resp, err := http.Get(url)
     if err != nil {
@@ -36,5 +48,24 @@ func getSchedule(id string) (*response, error) {
         log.Print(err)
         return nil, err
     }
-    return &ingest, nil
+    weeks := make([]Week, len(ingest.Schedule))
+    for i, weekInfo := range ingest.Schedule {
+        matches := make([]Match, len(weekInfo.Matches))
+        for j, matchInfo := range weekInfo.Matches {
+            matches[j] = Match{
+                Team1Id: matchInfo.Team1Id,
+                Team2Id: matchInfo.Team2Id,
+                LaneNum: matchInfo.Team1Lane,
+            }
+        }
+        weeks[i] = Week {
+            Date: weekInfo.Date,
+            Matches: matches,
+        }
+    }
+    result := &Schedule {
+        LeagueId: ingest.LeagueId,
+        Weeks: weeks,
+    }
+    return result, nil
 }
