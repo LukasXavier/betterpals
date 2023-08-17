@@ -61,7 +61,13 @@ func getSchedule(w http.ResponseWriter, r *http.Request) {
     if err != nil {
         log.Print(err)
     }
-    if err := tmpl.Execute(w, res); err != nil {
+
+    val := make([]struct{ Id string; Name string }, 0, len(res))
+    for k, v := range res {
+        val = append(val, struct{ Id string; Name string }{Id: k, Name: v.Name})
+    }
+
+    if err := tmpl.Execute(w, val); err != nil {
         log.Print(err)
     }
 }

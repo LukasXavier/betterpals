@@ -61,6 +61,14 @@ func (s *Store) FetchTeam(id string) *team.Team {
 
 func (s *Store) Sync(id string) {
     schedule := s.FetchSchedule(id)
+    if schedule == nil {
+        log.Print("store::Sync() - schedule is nil")
+        return
+    }
+    if len(schedule.Weeks) == 0 {
+        log.Print("store::Sync() - schedule has no weeks")
+        return
+    }
     for _, match := range schedule.Weeks[0].Matches {
         go s.FetchTeam(match.Team1Id)
         go s.FetchTeam(match.Team2Id)

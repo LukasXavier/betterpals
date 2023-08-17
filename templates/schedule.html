@@ -1,3 +1,5 @@
 <div>
-    {{.}}
+    {{range .}}
+    <div>{{.Id}}: {{.Name}}</div>
+    {{end}}
 </div>

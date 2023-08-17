@@ -1,43 +1,8 @@
 monday league_id    = 645fb75941fed69161785bd6
 wednesday league_id = 64775948fc90f4363a1c6ef5
 
-monday team_id      = 
+monday team_id      = 645fb9a4d759801b5dacd019
 wednesday team_id   = 64775970bba9d14862bcf9ce  
-
-[ ] This should only be called once per season and cached in the sqlite db
-curl "https://www.leaguepals.com/laneSchedule?league_id=645fb75941fed69161785bd6&simple=true"
-    - contains a a json with a schedule which is match[]
-    - matches look like
-    {
-      "date": "2023-08-28T00:00:00.000Z",
-      "_id": "64b9d30455fc86314fd7b4f6",
-      "splitMatches": [],
-      "isSkipped": false,
-      "isUSBC": true,
-      "isLocked": false,
-      "isDiffMultiShift": false,
-      "isSwitchPairLane": false,
-      "isOneTeamPairLane": false,
-      "isLockPositionRound": false,
-      "isDivPositionRound": false,
-      "isPositionRound": false,
-      "noPoints": false,
-      "customName": "",
-      "isCustom": false,
-      "movement": {
-        "moves": []
-      },
-      "lockedShiftRefresh": [],
-      "lockedShift": [],
-      "calculatedStartLane": 1,
-      "normalWeek": 13
-    }
-
-    - running with simple=false gives the matches[] inside schdule which is
-    what I actually care about from a given week
-
-https://www.leaguepals.com/loadIndividualTeam?id=64775970bba9d14862bcf9ce&noPre=false
-
 
 S(qlite)
 H(tmx)
