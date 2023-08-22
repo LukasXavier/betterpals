@@ -10,6 +10,7 @@ import (
 
 	"github.com/LukasXavier/betterpals/api/store"
 	"github.com/LukasXavier/betterpals/api/team"
+	"github.com/LukasXavier/betterpals/storage/db"
 )
 
 func OpenBrowser(url string) {
@@ -79,6 +80,11 @@ func main() {
     http.HandleFunc("/clicked", getClicked)
     http.HandleFunc("/schedule", getSchedule)
 
+    dbCon, err := db.New()
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer dbCon.Close()
     // OpenBrowser("http://localhost:8080")
     if err := http.ListenAndServe(":8080", nil); err != nil {
         log.Fatal(err)
