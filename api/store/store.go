@@ -103,9 +103,9 @@ func (s *Store) Sync(id string) {
 }
 
 func (s *Store) GetTeam(id string) (*Team, error) {
-    ch := make(chan *Team)
-    var wg sync.WaitGroup
     if team, ok := s.Teams[id]; !ok {
+        ch := make(chan *Team)
+        var wg sync.WaitGroup
     	wg.Add(1)
     	go fetchTeam(id, ch, &wg)
     	go func() {
